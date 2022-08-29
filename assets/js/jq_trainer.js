@@ -27,7 +27,7 @@ function getSingleTrainer(id){
 
   var html="";
   
-    html +=   `<div class="contentxsFix" style='width: 320px; height: 774px;'>
+    html +=   `<div class="contentxsFix" style='width: 320px; height: 650px;'>
                 <img src="`+data.photo+`" alt="" style="max-width:285px; max-height: 189px; border-radius: 30px">
                 <p class="shop-merch-block-name">`+data.name+`</p>
                 <p class="shop-merch-block-name">Workout type: <br> `+data.type_of_workout+`</p>
