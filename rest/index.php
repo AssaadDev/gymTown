@@ -38,7 +38,7 @@ require_once 'services/usersService.class.php';
       $request = Flight::request();
       $query_param = @$request->query->getData()[$name];
       $query_param = $query_param ? $query_param : NULL;
-      return urldecode($query_param);
+      return $query_param;
     });
 
     Flight::route('/*', function(){
