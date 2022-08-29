@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>GYMTOWN</title>
+      <link rel="stylesheet" href="./assets/css/components.css">
+      <link rel="icon" href="./assets/img/logo.png">
+      <link rel="stylesheet" href="./assets/css/responsee.css">
+
+      <link rel="stylesheet" href="./assets/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="./assets/owl-carousel/owl.theme.css">
+
+      <link rel="stylesheet" href="assets/css/spapp.css" />
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="assets/css/template-style.css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="./assets/js/jquery-ui.min.js"></script>
+
+
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->
+      <header>
+         <nav>
+            <div class="line">
+               <!-- Mobile version of logo -->
+               <div class="logo logo-small">
+                 <a href="#home">GYMTOWN</a>
+               </div>
+
+               <div class="top-nav">
+
+                     <ul class="s-12 l-5 top-ul bl-nav chevron">
+                        <div class="right">
+                            <li><a href="#home">Home</a>
+                            </li>
+                            <li><a href="#shop">Shop</a>
+                            </li>
+                            <li><a href="#plans">Plans</a>
+                            </li>
+                            <li><a href="#gyms">Gyms</a>
+                            </li>
+                        </div>
+                     </ul>
+                     <ul class="s-12 l-2">
+                        <li class="logo hide-s hide-m">
+                           <a href="#home" class="pd-brd"><img src="./assets/img/logo.png" alt="logo"></a>
+                        </li>
+                     </ul>
+                     <ul class="s-12 l-5 right top-ul br-nav chevron">
+                        <li><a href="#trainers">Trainers</a>
+                        </li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                        <li id='myprof' class='hideNavBtn'><a href="#myprofil">My Profile</a>
+                        </li>
+                      </li>
+                      <li><a id='logInOut' href="#login">Log in</a>
+                      </li>
+                     </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+
+        <main id="spapp" role="main">
+          <section id="home" data-load="home.html" ></section>
+          <section id="shop" data-load="shop.html" ></section>
+          <section id="plans" data-load="plans.html" ></section>
+          <section id="trainers" data-load="trainers.html" ></section>
+          <section id="contact" data-load="contact.html" ></section>
+          <section id="login" data-load="login.html" ></section>
+          <section id="register" data-load="register.html" ></section>
+          <section id="gyms" data-load="gyms.html" ></section>
+          <section id="myprofil" data-load="myprofile.html" ></section>
+        </main>
+
+
+        <div id="modalShow" class="modalCst hideM" onclick="modalOpen(null)">
+          <div id="singleData" class="contentxs">
+            <div class="lds-dual-ring"></div>  <!--  SPINNER SPINNER SPINNER SPINNER SPINNER -->
+          </div>
+        </div>
+
+      <!-- <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+      <script src="assets/js/jquery.spapp.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script> -->
+
+      <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+          <script src="assets/js/jquery.spapp.js"></script>
+          <script src="assets/js/custom.js"></script>
+
+      <script type="text/javascript" src="./assets/js/responsee.js"></script>
+      <script type="text/javascript" src="./assets/owl-carousel/owl.carousel.js"></script>
+
+   </body>
+</html>

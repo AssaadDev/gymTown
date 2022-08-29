@@ -1,0 +1,89 @@
+
+
+         <div id="head">
+            <div class="line">
+               <h1>Take a look at our mearch</h1>
+            </div>
+         </div>
+         <div id="content" class="shop-h">
+            <div class="line ">
+              <div class="grid margin2x">
+              <div class="s-12 m-4 l-3 aside-nav margin-bottom shop-box-left">
+              <ul>
+
+
+
+                 
+                <form method="get">
+                  <p class="shop-form-p">Category:</p>
+                  <div class="sort-form">
+                  <div>
+                    <input id="allcat" type="radio" name="clth" value="all" checked>
+                    <label for="all"><span></span>All</label>
+                  </div>
+                    <div>
+                      <input id="top" type="radio" name="clth" value="top">
+                    	<label for="top"><span></span>Top</label>
+                    </div>
+                    <div>
+                      <input id="shoes" type="radio" name="clth" value="shoes">
+                    	<label for="shoes"><span></span>Shoes</label>
+                    </div>
+                  	<div>
+                      <input id="bottom" type="radio" name="clth" value="bottom">
+                    	<label for="bottom"><span></span>Bottom</label>
+                    </div>
+                  </div>
+
+                  	<br>
+
+                    <p class="shop-form-p">Gender:</p>
+                    <div class="sort-form">
+                    <div>
+                      <input id="allgen" type="radio" name="gen" value="all" checked>
+                      <label for="all"><span></span>All</label>
+                    </div>
+                        <div>
+                          <input id="male" type="radio" name="gen" value="male">
+                          <label for="male"><span></span>male</label>
+                        </div>
+                        <div>
+                          <input id="female" type="radio" name="gen" value="female">
+                          <label for="female"><span></span>female</label>
+                        </div>
+                        <div>
+                          <input id="unisex" type="radio" name="gen" value="unisex">
+                          <label for="unisex"><span></span>unisex</label>
+                        </div>
+                    </div>
+
+                    <input class="shop-form-b" type="submit"  value="Filtert" onclick="getShop()">
+                  </form>
+
+              </ul>
+              <div id='adminShop' class="content-block margin-bottom content-shop-fix" >
+              </div>
+              </div>
+              <div class="s-12 m-8 l-9 grid margin" id='shopItems'>
+
+                <div class="s-12 m-6 l-4">
+                   <div class="content-block margin-bottom content-shop-fix">
+                      <div class="lds-dual-ring"></div>  <!--  SPINNER SPINNER SPINNER SPINNER SPINNER -->
+                   </div>
+                </div>
+                <div class="s-12 m-6 l-4">
+                   <div class="content-block margin-bottom content-shop-fix">
+                      <div class="lds-dual-ring"></div>  <!--  SPINNER SPINNER SPINNER SPINNER SPINNER -->
+                   </div>
+                </div>
+                <div class="s-12 m-6 l-4">
+                   <div class="content-block margin-bottom content-shop-fix">
+                      <div class="lds-dual-ring"></div>  <!--  SPINNER SPINNER SPINNER SPINNER SPINNER -->
+                   </div>
+                </div>
+
+              </div>
+            </div>
+         </div>
+
+<script src="assets/js/jq_shop.js"></script>
