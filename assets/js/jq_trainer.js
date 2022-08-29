@@ -34,7 +34,7 @@ function getSingleTrainer(id){
                 <p class="shop-merch-block-name">Gender: <br>`+data.gender+`</p>
                 <p class="shop-merch-block-name">Age: <br>`+data.age+`</p>
                 <p class="shop-merch-block-name" style='width: auto'>Short description about `+data.name+`: <br>`+data.description+`</p>
-               </div> ;
+               </div>` ;
 
     $('#singleData').html(html);
 });
