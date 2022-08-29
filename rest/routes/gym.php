@@ -57,7 +57,10 @@ Flight::route('GET /Gyms/@id', function($id){
  */
 
 Flight::route('GET /Gyms', function(){
-  Flight::json(Flight::gymSrv()->get_all(Flight::query('search'))); //Flight::json() vraca nam json format
+  $check = Flight::json(Flight::gymSrv()->get_all(Flight::query('search'))); //Flight::json() vraca nam json format
+  if($check){
+    Flight::json(["message" => "cant fetch"], 404);
+  }
 });
 
 /**
