@@ -27,14 +27,14 @@ function getSingleTrainer(id){
 
   var html="";
   
-    html +=   `
-        <img src="`+data.photo+`" alt="" style="max-width:285px; max-height: 189px; border-radius: 30px">
-        <p class="shop-merch-block-name">`+data.name+`</p>
-        <p class="shop-merch-block-name">Workout type: <br> `+data.type_of_workout+`</p>
-        <p class="shop-merch-block-name">Gender: <br>`+data.gender+`</p>
-        <p class="shop-merch-block-name">Age: <br>`+data.age+`</p>
-        <p class="shop-merch-block-name" style='width: 50%'>Short description about `+data.name+`: <br>`+data.description+`</p>
-  `;
+    html +=   `<div class="contentxsFix" style='width: 320px; height: 774px;'>
+                <img src="`+data.photo+`" alt="" style="max-width:285px; max-height: 189px; border-radius: 30px">
+                <p class="shop-merch-block-name">`+data.name+`</p>
+                <p class="shop-merch-block-name">Workout type: <br> `+data.type_of_workout+`</p>
+                <p class="shop-merch-block-name">Gender: <br>`+data.gender+`</p>
+                <p class="shop-merch-block-name">Age: <br>`+data.age+`</p>
+                <p class="shop-merch-block-name" style='width: auto'>Short description about `+data.name+`: <br>`+data.description+`</p>
+               </div> ;
 
     $('#singleData').html(html);
 });
